@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17
-COPY target/dev.jar dev.jar
-CMD ["java","-jar","dev.jar"]
+COPY target/devops.jar devops.jar
+CMD ["java","-jar","devops.jar"]
